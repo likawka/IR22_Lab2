@@ -8,14 +8,14 @@
 
 class Line {
 
-    protected:
-        int* linesize;
-    public:
-        Line(int _linesize);
+protected:
+    int* linesize;
+public:
+    Line(int _linesize);
 
-        Line(const Line& ln);
+    Line(const Line& ln);
 
-        ~Line(void);
+    ~Line(void);
 
 };
 

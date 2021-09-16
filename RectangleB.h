@@ -14,7 +14,7 @@ protected:
     int *height;
 
 public:
-    RectangleB(int hei, int wid);
+    RectangleB(int hei, int widthab);
 
     ~RectangleB(void);
 

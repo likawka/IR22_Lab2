@@ -7,7 +7,7 @@
 #include "Line.h"
 
 
-RectangleA::RectangleA(int hei, int wida) : Line (wida)
+RectangleA::RectangleA(int hei, int widthab) : Line (widthab)
     {
         AreaRA = new double(0);
         PerimetrRA = new double(0);
