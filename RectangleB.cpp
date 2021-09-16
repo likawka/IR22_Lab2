@@ -9,7 +9,7 @@ RectangleB::RectangleB(int hei, int wid) : Line(wid) {
     AreaR = new double(0);
     PerimetrR = new double(0);
     height = new int(hei);
-    std::cout << "Rectangle" << std::endl;
+    std::cout << "Created Rectangle" << std::endl;
 }
 
 RectangleB::~RectangleB(void) {

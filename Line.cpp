@@ -7,7 +7,7 @@
 
 Line::Line(int _linesize) {
     linesize = new int(_linesize);
-    std::cout << "Line" << std::endl;
+    std::cout << "Created Line" << std::endl;
 
 }
 

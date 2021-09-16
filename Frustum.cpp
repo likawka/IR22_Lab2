@@ -16,7 +16,7 @@ Frustum::Frustum(int hga, int wda, int hgb, int wdb, int height) : RectangleA(hg
         sidearea = new double(0);
         heightF = new double(height);
 
-        std::cout << "Frustum" << std::endl;
+        std::cout << "Created Frustum" << std::endl;
     }
 
 Frustum::~Frustum(void)

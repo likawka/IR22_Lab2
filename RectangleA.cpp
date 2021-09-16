@@ -12,7 +12,7 @@ RectangleA::RectangleA(int hei, int wida) : Line (wida)
         AreaRA = new double(0);
         PerimetrRA = new double(0);
         heightA = new int(hei);
-        std::cout << "Rectangle" << std::endl;
+        std::cout << "Created Rectangle" << std::endl;
     }
 
 RectangleA::~RectangleA(void)
