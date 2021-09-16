@@ -14,7 +14,7 @@ protected:
     double *PerimetrRA;
 
 public:
-    RectangleA(int hei, int wida);
+    RectangleA(int hei, int widthab);
 
     ~RectangleA(void);
 

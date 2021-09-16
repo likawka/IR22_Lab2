@@ -14,16 +14,13 @@ int main() {
 
     do {
         setlocale(LC_ALL, "ukr");
-        int widtha(0), heighta(0), heightF(0), widthb(0), heightb(0);
+        int widthab(0), heighta(0), heightF(0), heightb(0);
 
-        cout << "Введiть ширину першого прямокутника: ";
-        cin >> widtha;
+        cout << "Введiть ширину  прямокутників: ";
+        cin >> widthab;
 
         cout << "Введiть висоту першого прямокутника: ";
         cin >> heighta;
-
-        cout << "Введiть ширину другого прямокутника: ";
-        cin >> widthb;
 
         cout << "Введiть висоту другого прямокутника: ";
         cin >> heightb;
@@ -31,9 +28,9 @@ int main() {
         cout << "Введiть висоту зрізаної піраміди: ";
         cin >> heightF;
 
-        RectangleA recA(heighta, widtha);
-        RectangleB recB(heightb, widthb);
-        Frustum pr(heighta, widtha, heightb, widthb, heightF);
+        RectangleA recA(heighta, widthab);
+        RectangleB recB(heightb, widthab);
+        Frustum pr(heighta, heightb, heightF, widthab);
 
 
         cout << "====================================================" << endl;

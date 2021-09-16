@@ -6,8 +6,8 @@
 
 
 Line::Line(int _linesize) {
-    linesize = new int(_linesize);
-    std::cout << "Created Line" << std::endl;
+        linesize = new int(_linesize);
+        std::cout << "Created Line" << std::endl;
 
 }
 

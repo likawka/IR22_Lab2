@@ -14,7 +14,7 @@ private:
     double* volume, * sidearea, *heightF;
 
 public:
-    Frustum(int hga, int wda, int hgb, int wdb, int height);
+    Frustum(int hga, int hgb,int height, int widthab);
 
     ~Frustum(void);
 

@@ -10,7 +10,7 @@
 #include "RectangleA.h"
 #include "RectangleB.h"
 
-Frustum::Frustum(int hga, int wda, int hgb, int wdb, int height) : RectangleA(hga, wda), RectangleB(hgb, wdb), Line(height)
+Frustum::Frustum(int hga, int hgb, int height,int widthab) : RectangleA(hga, widthab), RectangleB(hgb, widthab), Line(widthab)
     {
         volume = new double(0);
         sidearea = new double(0);
